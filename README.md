@@ -11,5 +11,6 @@
 4)добавить в program.cs 
 builder.Services.AddDbContext<TestContext>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("TestContext")));
+  
 Тестирование RestApi
 1)Перейдите по адресу https://localhost:yourport/swagger/index.html
