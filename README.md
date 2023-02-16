@@ -1,6 +1,6 @@
 # FitnessClubApi
 В приведенном проекте используется подключение к уже существующей базе данных postgressql
-Создание database-first
+<b>Создание database-first</b>
 
 1)скачать Microsoft.EntityFrameworkCore.Tools и Npgsql.EntityFrameworkCore.PostgreSQL
 
@@ -12,5 +12,9 @@
 builder.Services.AddDbContext<TestContext>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("TestContext")));
   
-Тестирование RestApi
+<b>Тестирование RestApi</b>
 1)Перейдите по адресу https://localhost:yourport/swagger/index.html
+
+<b>Схема отношений Базы данных</b>
+![Image alt](https://github.com/{blade1death}/{FitnessClubApi}/raw/{master}/{FitnessClubApi}/image.png)
+
