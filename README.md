@@ -16,5 +16,5 @@ options.UseNpgsql(builder.Configuration.GetConnectionString("TestContext")));
 1)Перейдите по адресу https://localhost:yourport/swagger/index.html
 
 <b>Схема отношений Базы данных</b>
-![Image alt](https://github.com/{blade1death}/{FitnessClubApi}/raw/{master}/chen.png)
+![Image alt](https://github.com/{blade1death}/{FitnessClubApi}/raw/{master}/{FitnessClubApi}/chen.png)
 
