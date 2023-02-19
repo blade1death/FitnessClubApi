@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessClubApi", "FitnessClubApi\FitnessClubApi.csproj", "{26929C97-D8D7-4747-9FBD-770AF5E6B40A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessClubApi", "FitnessClubApi\FitnessClubApi.csproj", "{26929C97-D8D7-4747-9FBD-770AF5E6B40A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{F8FD5325-CE9B-4365-AE90-7FDEC96A0D34}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDatabase.sql = CreateDatabase.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
